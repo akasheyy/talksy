@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Talksy backend is running 🚀");
+  res.send("Talksy backend updated 🚀");
 });
 
 const PORT = 5000;
